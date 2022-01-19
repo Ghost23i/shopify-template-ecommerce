@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThemesPort | Get your premium Shopify template</title>
+    <link rel="stylesheet" href="./shopifystyle.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="./shopify.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="nav__container">
+                <div class="logo__wrapper">
+                    <img src="./assets/eft.png" class="logo" alt="Solifuse">
+                </div>
+                <ul class="nav__links">
+                    <li><a href="#highlights" class="nav__link">About</a></li>
+                    <li><a href="#" class="nav__link not__allowed">Blog</a></li>
+                    <li><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li><a href="#" class="nav__link not__allowed">Contact Us</a></li>
+                    <li><a href="#" class="nav__link--account not__allowed">Login</a></li>
+                    <li><a href="#" class="nav__link--primary not__allowed">Sign Up</a></li>    
+                </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                    <a href="#highlights" class="menu__link" onclick="closeMenu()">About</a>
+                    </li>
+                    <li class="menu__list">
+                    <a class="menu__link no-cursor" onclick="closeMenu()">Blogs</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#pricing" class="menu__link no-cursor" onclick="closeMenu()">Pricing</a>
+                    </li>
+                    <li class="menu__list">
+                    <a class="menu__link no-cursor" onclick="closeMenu()">Conatct Us</a>
+                    </li>
+                    <li class="menu__list">
+                    <a class="menu__link no-cursor" onclick="closeMenu()">Login</a>
+                    </li>
+                    <li class="menu__list">
+                    <a class="menu__link no-cursor" onclick="closeMenu()">Sign Up</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="header__container">
+                <div class="header__description">
+                    <div class="q__strat"><span class="special__color">WANT TO STAND OUT FROM THE</span> CROWD?</div>
+                    <h3 class="strat">Your in the right place! Start your Shopify Dropshipping store right here right now with <span class="green">ThemesPort.</span> Because we care about how we represent our templates, your website will reflect <span class="green">your choice</span> without breaking a sweat. Our templates are easy to setup, understand and customize. So are you ready to start <span class="green">trading?</span> </h3>
+                    <div class="take__action">  
+                        <input id="take__action--email" type="email" placeholder="Enter your e-mail address" onkeydown="emailValidation()">
+                        <span id="email"></span>
+                        <button class="take__action--btn">Lets Roll!</button>
+                    </div>
+                </div>
+                <figure class="header__img--wrapper">
+                    <img class="header__img" src="./assets/undraw_web_shopping_re_owap.svg" alt="E-Commerce">
+                </figure>
+                <div class="trusted__customers">
+                    <h2 class="trusted__customers--title">OUR TRUSTED CUSTOMERS</h2>
+                    <div class="trusted__customers--logos">
+                        <figure class="trusted__customers--logo--wrapper">
+                            <img src="./assets/RBc.png" class="trusted__customers--logo" alt="Red Bull">
+                        </figure>
+                        <figure class="trusted__customers--logo--wrapper">
+                            <img src="./assets/Heinz.png" class="trusted__customers--logo" alt="Heinz">
+                        </figure>
+                        <figure class="trusted__customers--logo--wrapper">
+                            <img src="./assets/TheEco1.png" class="trusted__customers--logo" alt="The Economist">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <h3 class="highlights__title">FEATURES</h3>
+                    <h1 class="highlights__subtitle">We stand by</h1>
+                    <p class="highlights__para"><span class="special__color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque expedita accusamus nobis doloribus reprehenderit, quos perspiciatis voluptate blanditiis ad facilis impedit sint commodi maiores aut! Perspiciatis unde itaque velit quos?</span></p>
+                    <div class="highlights__description--wrapper">
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="highlight__title">Secure</div>
+                            </div>
+                            <div class="highlight__para">We strictly only deal with vendors that provide top notch security.</div>
+                        </div>
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="highlight__title">24/7</div>
+                            </div>
+                            <div class="highlight__para">Customer support whenever you want and whatever you need.</div>
+                        </div>
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img">
+                                    <i class="fas fa-sliders-h"></i>
+                                </div>
+                                <div class="highlight__title">Customizable</div>
+                            </div>
+                            <div class="highlight__para">We offer diversity in our templates and flexibility with our tools.</div>
+                        </div>
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img">
+                                    <i class="fas fa-sort-alpha-up"></i>
+                                </div>
+                                <div class="highlight__title">Reliable</div>
+                            </div>
+                            <div class="highlight__para">All-in-one browser compatible with desktops and mobile phones.</div>
+                        </div>
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img fast">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="highlight__title">Fast</div>
+                            </div>
+                            <div class="highlight__para">We did the math. You create, with only a few simple clicks.</div>
+                        </div>
+                        <div class="highlight__description">
+                            <div class="highlight__titlebar">
+                                <div class="highlight__img easy">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                </div>
+                                <div class="highlight__title">Easy</div>
+                            </div>    
+                            <div class="highlight__para">Navigate yourself easily around our website without having the hassle to ask the Internet.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quality__work">
+            <div class="container">
+                <div class="row row__quality__work">
+                    <div class="quality__work--description">
+                        <h3 class="quality__work--title">Quality Work</h3>
+                        <h1 class="quality__work--subtitle"><span class="special__color">Designed & Developed by</span> Professionals</h1>
+                        <p class="quality__work--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis, nostrum odio earum blanditiis deleniti nulla molestiae cumque error porro quae mollitia laudantium numquam, sed magnam temporibus totam magni dolorem.</p>
+                        <button class="quality__work--btn">Learn More</button>
+                    </div>
+                    <figure class="quality__work--img--wrapper">
+                        <img class="quality__work--img" src="./assets/quality_projects.png" alt="Quality Projects">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="steps">
+            <div class="container">
+                <div class="row row__steps">
+                    <figure class="steps__img--wrapper">
+                        <img src="./assets/undraw_add_to_cart_re_wrdo.svg" alt="ON YOUR WAY!" class="steps__img">
+                    </figure>
+                    <div class="steps__description--wrapper">
+                        <h1 class="steps__description--title">STEPS</h1>
+                        <h2 class="steps__description--subtitle"><span class="special__color">Easy to</span> Get Started.</h2>
+                        <ul class="steps__description--steps">
+                            <div class="steps__description--step-whole">
+                                <div class="steps__description--step-number">1</div>
+                                <li class="steps__description--step">
+                                    <h5 class="step_title">Register</h5>
+                                    <p class="step__description">
+                                        Create an account with us using Google or Facebook.
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="steps__description--step-whole">
+                                <div class="steps__description--step-number">2</div>
+                                <li class="steps__description--step">
+                                    <h5 class="step_title">Download</h5>
+                                    <p class="step__description">
+                                        Browse and Download the template that you like from the marketplace.
+                                    </p>
+                                </li>
+                            </div>
+                            <div class="steps__description--step-whole">
+                                <div class="steps__description--step-number">3</div>
+                                <li class="steps__description--step">
+                                    <h5 class="step_title">Run</h5>
+                                    <p class="step__description">
+                                        Follow the instructions to setup and customize the template to your needs.
+                                    </p>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="values">
+            <div class="container container__values">
+                <div class="row row__values">
+                    <div class="values__description--wrapper">
+                        <h1 class="values__description--title">Values</h1>
+                        <h2 class="values__description--subtitle"><span class="special__color">We Always Abide by Our</span> Principles.</h2>
+                        <p class="values__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, iste neque aut, dignissimos ipsum laudantium cum consequuntur nisi soluta voluptatibus quidem laborum eveniet, qui iure aperiam non earum dolorum nam!</p>
+                        <div class="value__stats">
+                            <div class="value__stat--one">
+                                <div class="value__stats--titlebar">
+                                    <div class="value__stats--img">
+                                        <i class="fas fa-dollar-sign"></i>
+                                    </div>
+                                    <h3 class="value__stats--title">Affordable</h3>
+                                </div>
+                                <p class="value__stats--para">
+                                    We promise to offer you the best rate we can - at par with the industry standard.
+                                </p>
+                            </div>
+                            <div class="value__stat--one">
+                                <div class="value__stats--titlebar">
+                                    <div class="value__stats--img">
+                                        <i class="fas fa-suitcase"></i>
+                                    </div>
+                                    <h3 class="value__stats--title">Professionalism</h3>
+                                </div>
+                                <p class="value__stats--para">
+                                    We assure you that our templates are designed and created by professional designers.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="value__stats--btn">Learn More</button>
+                    </div>
+                    <div class="values__imgs--wrapper">
+                        <figure class="values__img--wrapper">
+                            <img src="./assets/undraw_scrum_board_re_wk7v.svg" alt="Principles" class="values__img">
+                        </figure>
+                        <figure class="values__img--wrapper">
+                            <img src="./assets/undraw_personal_file_-222-m.svg" alt="Principles" class="values__img">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="container container__pricing">
+                <div class="row row__pricing">
+                    <h1 class="price__title">PRICING</h1>
+                    <h2 class="price__subtitle"><span class="special__color">Reasonable & Flexible</span> Plans.</h2>
+                    <p class="price__para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="price__subscription--wrapper">
+                        <div class="price__subscription--one">
+                            <div class="price__deal">
+                                <h1 class="price__deal--name">PERSONAL</h1>
+                                <h2 class="price__deal--price">$17.99</h2>
+                                <h3 class="price__deal--duration">MONTHLY</h3>
+                            </div>
+                            <hr>
+                            <div class="price__elements">
+                                <h1 class="price__elements--title">For Individuals</h1>
+                                <ul class="price__elements--list">
+                                    <li class="price__element">30 Templates</li>
+                                    <li class="price__element">7 Landing Pages</li>
+                                    <li class="price__element">12 Iternal Pages</li>
+                                    <li class="price__element">Basic Assisance</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <button class="price__btn">BUY NOW</button>
+                        </div>
+                        <div class="price__subscription--two">
+                            <div class="price__deal">
+                                <h1 class="price__deal--name--two">BUSINESS</h1>
+                                <h2 class="price__deal--price--two">$37.99</h2>
+                                <h3 class="price__deal--duration--two">MONTHLY</h3>
+                            </div>
+                            <hr>
+                            <div class="price__elements">
+                                <h1 class="price__elements--title--two">For Small Businesses</h1>
+                                <ul class="price__elements--list--two">
+                                    <li class="price__element unique">60 Templates</li>
+                                    <li class="price__element unique">15 Landing Pages</li>
+                                    <li class="price__element unique">22 Iternal Pages</li>
+                                    <li class="price__element unique">Priority Assisance</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <button class="price__btn--two">BUY NOW</button>
+                        </div>
+                        <div class="price__subscription--one">
+                            <div class="price__deal">
+                                <h1 class="price__deal--name">ENTERPRISE</h1>
+                                <h2 class="price__deal--price">$57.99</h2>
+                                <h3 class="price__deal--duration">MONTHLY</h3>
+                            </div>
+                            <hr>
+                            <div class="price__elements">
+                                <h1 class="price__elements--title">For Large Companies</h1>
+                                <ul class="price__elements--list">
+                                    <li class="price__element">90 Templates</li>
+                                    <li class="price__element">27 Landing Pages</li>
+                                    <li class="price__element">37 Iternal Pages</li>
+                                    <li class="price__element">Personal Assisance</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <button class="price__btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container container__testimonials">
+                <div class="row row__testimonials">
+                    <figure class="testimonial__img--wrapper">
+                        <img src="./assets/undraw_spread_love_r-9-jb.svg" alt="Love & Trust" class="testimonial__img">
+                    </figure>
+                    <div class="testimonials__talk">
+                        <div class="testimonial__intro">
+                            <h1 class="testimonial__title">Testimonials</h1>
+                            <h2 class="testimonial__subtitle"><span class="special__color">Our Clients</span> Love Us</h2>
+                            <p class="testimonial__para">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita saepe atque dolores eius? Voluptate, nulla quos? Velit vero sequi necessitatibus deserunt officiis, facilis explicabo incidunt! Quae ipsa voluptatum quas?
+                            </p>
+                        </div>
+                        <div class="testimonial__reviews">
+                            <div class="testimonial__reviews--ratings">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h1 class="testimonial__reviews--title">Amazing User Experience</h1>
+                            <p class="testimonial__reviews--para">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quibusdam magni itaque beatae, sequi consequatur ipsum obcaecati cum laborum eligendi ex corporis accusamus culpa maxime, aut iure odio odit voluptatem?
+                            </p>
+                            <div class="testimonial__reviews--client">
+                                <figure class="testimonial__reviews--client--img--wrapper">
+                                    <img src="../One/Assets/davidbr4gg.github.io-master/assets/me.jpeg" alt="David Bragg" class="testimonial__reviews--client--img">
+                                </figure>
+                                <div class="testimonial__reviews--client--id">
+                                    <span class="testimonial__reviews--client--name">David Bragg</span>
+                                    <span class="testimonial__reviews--client--status">Founder, Frontend Simplified</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="last__call">
+            <div class="row row__last__call">
+                <h1 class="last__call--statement"><span class="n__color">Developers all over the world are happily using</span> ThemesPort.</h1>
+                <div class="last__call--btn">
+                    <button class="last__call--start-btn">Get Started</button>
+                    <button class="last__call--contact-btn">Contact Us</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container container__footer">
+            <div class="row row__footer">
+                <div class="footer__links">
+                    <div class="footer__link">
+                        <h6 class="link__title">MAIN</h6>
+                        <ul class="link__list">
+                            <li class="link__link"><a href="#" class="mini__links">Blog</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">FAQs</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Support</a></li>
+                            <li class="link__link"><a href="#highlights" class="mini__links">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__link">
+                        <h6 class="link__title">PRODUCT</h6>
+                        <ul class="link__list">
+                            <li class="link__link"><a href="#" class="mini__links">Login</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Personal</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Business</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__link">
+                        <h6 class="link__title">PRESS</h6>
+                        <ul class="link__list">
+                            <li class="link__link"><a href="#" class="mini__links">Logos</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Events</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Stories</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Office</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__link">
+                        <h6 class="link__title">TEAM</h6>
+                        <ul class="link__list">
+                            <li class="link__link"><a href="#" class="mini__links">Career</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Founders</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Culture</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Onboarding</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__link">
+                        <h6 class="link__title">LEGAL</h6>
+                        <ul class="link__list">
+                            <li class="link__link"><a href="#" class="mini__links">GDPR</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Privacy Policy</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Terms of Service</a></li>
+                            <li class="link__link"><a href="#" class="mini__links">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <figure class="footer__info--img-wrapper">
+                        <img src="./assets/eft.png" alt="Logo" class="footer__info--img">
+                    </figure>
+                    <span class="footer__info--claim">&copy; 2021 ThemesPort Inc. All Rights Reserved.</span>
+                    <ul class="footer__info--social-links">
+                        <li class="footer__info--social-link--facebook s__link">
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+                        <li class="footer__info--social-link--twitter s__link">
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        <li class="footer__info--social-link--instagram s__link">
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li class="footer__info--social-link--youtube s__link">
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
