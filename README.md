@@ -6,6 +6,9 @@ E-Store for Shopify Themes
 
 The main purspose for this project was is to test my HTML and CSS skills in creating a high-end professional looking landing page for e-commerce with a touch of JavaScript magic.
 
+## Preview
+![Shopify Themes Store - Header](./assets/preview.png)
+
 ## Getting Started
 
 ### Dependencies
