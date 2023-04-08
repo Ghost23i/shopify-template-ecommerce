@@ -35,11 +35,16 @@ html{
     align-items: center;
 }
 
+html {
+    position: relative;
+}
+
 body{
     background-image: url(../Two/Dassets/wave.svg);
     background-repeat: repeat;
-    background-color: #00bf5627;
-    
+    background-color: #fff;
+    position: relative;
+    overflow-x: hidden;
 }
 
 button{
